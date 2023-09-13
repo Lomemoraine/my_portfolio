@@ -1,79 +1,373 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Bootstrap Practice</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  </head>
-  <body>
-    <body>
-        <div class="jumbotron">
-        <h1>Bootstrap Practice</h1>
-     
-        <p>Sed finibus sapien luctus pretium interdum. Etiam accumsan nibh neque. Integer congue magna orci, vitae suscipit mi tincidunt quis. Suspendisse fringilla, orci eu aliquet ultricies, libero ipsum maximus massa, et mollis leo massa sed felis. Suspendisse molestie elit non mollis gravida.</p>
-    </div>
-        <div class="container">
-            <div class="card">
-               
-     <div class="card-title">
-        <h2>Lorem Ipsum</h2>
-    </div>
-        <div class="card-body">
-            <div class="bg-danger">
+   <head>
+      <title>My Portfolio</title>
+      <!--Main Stylesheet-->
+      <link href="./css/style.css" rel="stylesheet">
+      <!--Fontawesome Brand icons Style-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/brands.min.css" integrity="sha512-G/T7HQJXSeNV7mKMXeJKlYNJ0jrs8RsWzYG7rVACye+qrcUhEAYKYzaa+VFy6eFzM2+/JT1Q+eqBbZFSHmJQew==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      
+   </head>
+   <body>
+      
+         <nav class=" sticky-top navbar navbar-expand-lg navbar-dark  bg-primary">
+            <div class="container">
+               <a class="col-md-6 navbar-brand h1" href="#">Portfolio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="col-md-6 collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#headers">Home</a>
+                  </li>
+                  <!-- <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                  </li> -->
+                  <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#portfolio">Portfolio</a>
+                   </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#clients">Clients</a>
+                   </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                </ul>                
+              </div>
+            </div>
+          </nav>
         
-        <ul>
-          <li>Lorem ipsum dolor sit amet</li>
-          <li>Consectetur adipiscing elit</li>
-          <li>Integer finibus</li>
-          <li>Nisl tempus semper semper</li>
-          <li>Purus nisl hendrerit tellus</li>
-        </ul>
-    </div>
-    </div>
-        <div class="card-title">
-        <h2>Et Consequat Magna</h2>
-    </div>
-    <div class="bg-primary">
-        <ul>
-          <li>Orci ut velit</li>
-          <li>Pellentesque cursus justo</li>
-          <li>In felis condimentum cursus</li>
-        </ul>
-        <ul>
-          <li>Proin dignissim lectus enim</li>
-          <li>Eu bibendum mauris euismod in</li>
-          <li>Morbi dictum</li>
-          <li>Ex et malesuada pellentesque</li>
-       
-        </ul>
-    </div>
-        <div class="card-title">
-        <h2>Morbi Lacinia Mollis Tortor</h2></div>
-        <div class="bg-success">
-        <ul>
-          <li>A sodales elit tempor ut</li>
-          <li>Ut elit augue</li>
-          <li>Imperdiet eu est faucibus</li>
-          <li>Tristique hendrerit mi</li>
-          <li>Proin in ex lectus</li>
-          <li>Donec accumsan in nisi non ultricies</li>
-        </ul>
-        </div>
-    </div>
+   
+      <section id="headers" class="section sec1 headers">         
+         <div class="container">
+            <div class="header-container">                                                                    
+               <div class="content">
+                   <div class="top-section">
+                       <h2>Hello, I’m</h2>
+                       <h1>Lorraine</h1>
+                       <h3>
+                        Web Developer | Data Analyst | Research Expert | Machine Learning Ambassador                     
+                       </h3>
+                       <p>I am a full-stack web developer and I specialize in Front-End Development. Anything to do with design work, I'm your <span>expert</span></p>
+                   </div>
+                   <div class="bottom-section">
+                     <a href="#contact" class="btn btn-primary"><i class="fa-solid fa-phone-volume"></i> Contact Me</a>  
+                   </div>                            
+               </div>
+               <div class="image">
+                   <img class="" src="./images/profile-photo1.png" alt="Profile Photo">
+               </div>                                        
+           </div>
+         </div>       
+      </section>
+      <main> 
+      <!--End of Header Section-->   
 
-<div class="card-footer">
-    <p>A footer for this specific card</p>
-</div>
-    </div>
-    
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+      <!--Services Section-->
+      <section id="services" class="section sec3 services">
+         <div class="section-title">
+            <h2>Services</h2>
+            <p>What I Do</p>
+         </div>
+         <!-- Start Service Tiles -->
+         <div class="container">
+            <div class="row">            
+               <div class="col-lg-3 col-md-6 col-sm-12">
+                  <div class="service-box center">
+                     <div class="icon-service">                       
+                        <span class="fa-stack fa-2x" style="vertical-align: top;">
+                          <i class="fa-solid fa-circle fa-stack-2x"></i>
+                          <i class="fa-solid fa-pen-nib fa-stack-1x fa-inverse"></i>
+                        </span>
+                          
+                      
+                     </div>  
+                     <div class="content">                                                             
+                           <h3><a href="#">UX/UI Designer</a></h3>
+                           <p>Provision of high-level content recommendations such on site maps, page wireframes, functional requirements, navigation structures and other UI elements.</p>
+                           <div >
+                              <a href="#" class="button">  <i class="fa-regular fa-circle-chevron-right"></i></a>                                      
+                           </div>
+                     </div>                                                                 
+                  </div>                        
+               </div>
+               <div class="col-lg-3 col-md-6 col-sm-12">
+                  <div class="service-box center">
+                     <div class="icon-service">
+                           <!--Icon-->                               
+                     </div>  
+                     <div class="content">                                                             
+                           <h3><a href="#">Front-End Developer</a></h3>
+                           <p> Utilize modern technology frameworks for front-end web projects. This ranges from Bootstrap, TailwindCSS, React.js, and Sass, just to name a few.</p>
+                           <div >
+                              <a href="#" class="button">  <i class="fa-regular fa-circle-chevron-right"></i></a>                                      
+                           </div>                                      
+                     </div>                                                                 
+                  </div>                        
+               </div>
+               <div class="col-lg-3 col-md-6 col-sm-12">
+                  <div class="service-box center">
+                     <div class="icon-service">
+                           <!--Icon-->                             
+                     </div>  
+                     <div class="content">                                                             
+                           <h3><a href="#">SEO Optimization</a></h3>
+                           <p>Search Engine Optimization is essential for any website. Being easily accessible to your audience on the internet is crucial. This is especially true for bloggers, marketing and e-commerce sites.</p>
+                           <div >
+                              <a href="#" class="button">  <i class="fa-regular fa-circle-chevron-right"></i></a>                                      
+                           </div>                             
+                     </div>                                                                 
+                  </div>                        
+               </div>
+               <div class="col-lg-3 col-md-6 col-sm-12">
+                  <div class="service-box center">
+                     <div class="icon-service">
+                           <!--Icon-->                              
+                     </div>  
+                     <div class="content">                                                             
+                           <h3><a href="#">Dev-Ops Expert</a></h3>
+                           <p>Deployment of any website is very important. Coding is one thing but being live on the internet and your user accessing your content is another.  </p>
+                           <div >
+                              <a href="#" class="button">  <i class="fa-regular fa-circle-chevron-right"></i></a>                                      
+                           </div>
+                     </div>                                                                 
+                  </div>                        
+               </div>
+            </div>
+         </div>
+        
+     <!-- End Service Tiles  -->
+      </section>
+      <!--End of Services Section-->
+
+      <!--Portfolio Section-->
+      <section id="portfolio" class="section sec4 ">
+         <div class="section-title">
+            <h2>My Portfolio</h2>
+         </div>
+         <p class="port-text">
+            I have done some plenty of amaizing jobs using different technology stacks.
+         </p>
+         <div class="container">
+         <div class="portfolios">
+            <div class="portfolio-item">
+               <div class="image">
+                  <img src="./images/portfolio/mbogo_portfolio.png" alt="Mbogo Valley">
+               </div>
+               <div class="hover-items">
+                  <h3>Mbogo Valley Website</h3>
+                  <div class="icons">
+                     <a href="#" class="icon">
+                        <i class="fa-brands fa-github"></i>
+                     </a>
+                     <a href="#" class="icon">
+                        <i class="fa-brands fa-twitter"></i>
+                     </a>
+                     <a href="http://mbogovalleytea.com/" class="icon" target="_blank">
+                        <i class="fa-solid fa-globe"></i>
+                     </a>
+
+                  </div>
+               </div>
+            </div>
+            <div class="portfolio-item">
+               <div class="image">
+                  <img src="./images/portfolio/Bureti tea.png" alt="Bureti Tea">
+               </div>
+               <div class="hover-items">
+                  <h3>Bureti Tea Design</h3>
+                  <div class="icons">
+                     <a href="#" class="icon">
+                        <i class="fa-brands fa-github"></i>
+                     </a>
+                     <a href="#" class="icon">
+                        <i class="fa-brands fa-twitter"></i>
+                     </a>
+                     <a href="http://mbogovalleytea.com/" class="icon" target="_blank">
+                        <i class="fa-solid fa-globe"></i>
+                     </a>
+
+                  </div>
+               </div>
+            </div>
+            <div class="portfolio-item">
+               <div class="image">
+                  <img src="./images/portfolio/gale claire.png" alt="Gale Claire">
+               </div>
+               <div class="hover-items">
+                  <h3>Gale Claire Blog Site</h3>
+                  <div class="icons">
+                     <a href="#" class="icon">
+                        <i class="fa-brands fa-github"></i>
+                     </a>
+                     <a href="#" class="icon">
+                        <i class="fa-brands fa-twitter"></i>
+                     </a>
+                     <a href="http://mbogovalleytea.com/" class="icon" target="_blank">
+                        <i class="fa-solid fa-globe"></i>
+                     </a>
+
+                  </div>
+               </div>
+            </div>
+         </div>
+         
+            
+         </div>
+      </div>
+         
+         
+      </section>
+      <!--End of Portfolio Section-->
+      
+
+<!--Clients Section-->
+<section id="clients" class="section sec5 ">
+   <div class="section-title">
+      <h2>Happy Clients</h2>
+   </div>   
+   
+   <div class="clients">
+
+      <div class="client-logo">
+         <div class="image">
+            <img src="./images/clients/sangalo logo 300x300.png" alt="Sangalo Tea">
+         </div>         
+      </div>
+      <div class="client-logo">
+         <div class="image">
+            <img src="./images/clients/Kuresoi Tea Factory Logo.png" alt="Kuresoi Tea">
+         </div>         
+      </div>
+      <div class="client-logo">
+         <div class="image">
+            <img src="./images/clients/sabs-mining.png" alt="Sabs Mining">
+         </div>         
+      </div>
+      <div class="client-logo">
+         <div class="image">
+            <img src="./images/clients/mbogo-valley.png" alt="Mbogo Valley">
+         </div>         
+      </div>
+      <div class="client-logo">
+         <div class="image">
+            <img src="./images/clients/tet-tea.png" alt="Tet Tea">
+         </div>         
+      </div>
+      <div class="client-logo">
+         <div class="image">
+            <img src="./images/clients/abss-logo.png" alt="Abss Warehouses">
+         </div>         
+      </div>
+      
+   </div>
+   
+      
+
+
+   
+   
+</section>
+<!--End of Clients Section-->
+
+
+      <!--Client Section-->
+     
+         
+         
+         
+      </section>
+      <!--End Client Section-->
+
+      <!--Contact Section-->
+      <section id="contact" class="section sec6 contact">
+         <div class="container">       
+           <div class="section-title">
+             <h2>Contact</h2>
+           </div>
+   
+           <div class="row mt-1">
+   
+             <div class="col-lg-4">
+               <div class="address-section">
+                  <div class="#">
+                     <h4><i class="fa-regular fa-signs-post"></i>  Dedan Kimathi University, Nyeri</h4>
+                  </div>
+   
+                  <div class="#">                                
+                     <h4><i class="fa-regular fa-envelope"></i>  lorrainechepkemoi2001@gmail.com</h4>
+                  </div>
+   
+                  <div class="#">                  
+                     <h4><i class="fa-regular fa-phone"></i>  +254 748 177004</h4>
+                  </div>
+   
+               </div>
+   
+             </div>
+   
+             <div class="col-lg-8 mt-5 mt-lg-0">
+   
+               <form class="#">
+                 <div class="row">
+                  <div class="col-md-6">
+                     <div class="input-group">
+                        <span class="input-group-text"><i class="fa-regular fa-user"></i></span>
+                        <input type="text" name="name" class="form-control" id="name" placeholder="Full Names" required>
+                     </div>
+                  </div>
+
+                   <div class="col-md-6">
+                     <div class="input-group">
+                        <span class="input-group-text"><i class="fa-regular fa-envelope"></i></span>
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Email Address" required>
+                     </div>
+                   </div>
+                 </div>
+                 <div class="mt-3">
+                  <div class="input-group">
+                     <span class="input-group-text"><i class="fa-regular fa-pen-to-square"></i></span>
+                   <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                  </div>
+                 </div>
+                 <div class="mt-3">
+                   <textarea class="form-control" name="message" rows="7" placeholder="Message" required></textarea>
+                 </div> 
+                 <div class="mt-3 center">                     
+                        <button type="submit" class="btn btn-primary btn-lg">Send Message <i class="fa-duotone fa-paper-plane"></i></button>                       
+                  </div>
+               </form>
+   
+             </div>
+             
+           </div>
+         </div>  
+      </section>
+      <!--End Contact Section-->
+   </main>   
+
+      <!--Footer Section-->
+      <footer id="footer">
+         <div class="container">
+           <h3>Lorraine Chepkemoi</h3>
+           <p>Software Engineer | Full stack Developer | Machine Learning Research  Expert</p>
+           
+           <p> Social Media Icons ***</p>
+           <ul class="d-flex">
+             <li><a href="https://github.com/collinskchirchir"><i class="fab fa-twitter"></i></a></li>
+             <li><a href="#"><i class="fab fa-linkedin "></i></a></li>
+             <li><a href="#"><i class="fab fa-square-facebook"></i></a></li>  
+             <li><a href="#"><i class="fab fa-square-twitter"></i></a></li>   
+           </ul>
+
+           <p>&copy; Copyright 2023 <strong><span>Lorraine  Chepkemoi</span></strong>. All Rights Reserved</p>           
+         </div>
+       </footer>
+       <!-- End Footer -->
+       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   </body>
 </html>
